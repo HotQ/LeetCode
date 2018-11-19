@@ -14,6 +14,7 @@
 |      |                                                     |            | [C][4C2] | 100.00% | ![][Ologmn]     |
 | 5    | [Longest Palindromic Substring][5]                  | Medium     | [C][5C1] | 79.49%  | ![][On2]        |
 |      |                                                     |            | [C][5C2] | 93.66%  | ![][On]         |
+| 6    | [ZigZag Conversion][6]                              | Medium     | [C][6C]  | 100.00% |                 |
 
 
 [1]:   ./doc/001.md
@@ -28,6 +29,9 @@
 [5]:   ./doc/005.md
 [5C1]: ./src/prob/005_1.c 
 [5C2]: ./src/prob/005_2.c
+[6]:   ./doc/006.md
+[6C]:  ./src/prob/006.c
+
 
 [Ominmn]: http://latex.codecogs.com/gif.latex?O(\min\(m,n\)) 
 [Ologmn]: http://latex.codecogs.com/gif.latex?O(\log\(m,n\)) 
