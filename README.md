@@ -16,6 +16,7 @@
 |      |                                                     |            | [C][5C2] | 93.66%  | ![][On]         |
 | 6    | [ZigZag Conversion][6]                              | Medium     | [C][6C]  | 100.00% |                 |
 | 7    | [Reverse Integer][7]                                | Easy       | [C][7C]  | 98.34%  |                 |
+| 8    | [String to Integer (atoi)][8]                       | Medium     | [C][8C]  | 100.00% |                 |
 
 
 [1]:   ./doc/001.md
@@ -34,6 +35,8 @@
 [6C]:  ./src/prob/006.c
 [7]:   ./doc/007.md
 [7C]:  ./src/prob/007.c
+[8]:   ./doc/008.md
+[8C]:  ./src/prob/008.c
 
 
 [Ominmn]: http://latex.codecogs.com/gif.latex?O(\min\(m,n\)) 
