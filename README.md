@@ -5,18 +5,19 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-| #    | Title                                               | Difficulty | Languge  | Runtime | Time Complexity |
-| ---: | :-------------------------------------------------- | :--------- | :------- | ------: | :-------------- |
-| 1    | [Two Sum][1]                                        | Easy       | [C][1C]  | 90.07%  |                 |
-| 2    | [Add Two Numbers][2]                                | Medium     | [C][2C]  | 100.00% |                 |
-| 3    | [Longest Substring Without Repeating Characters][3] | Medium     | [C][3C]  | 100.00% |                 |
-| 4    | [Median of Two Sorted Arrays][4]                    | Hard       | [C][4C1] | 100.00% | ![][Ominmn]     |
-|      |                                                     |            | [C][4C2] | 100.00% | ![][Ologmn]     |
-| 5    | [Longest Palindromic Substring][5]                  | Medium     | [C][5C1] | 79.49%  | ![][On2]        |
-|      |                                                     |            | [C][5C2] | 93.66%  | ![][On]         |
-| 6    | [ZigZag Conversion][6]                              | Medium     | [C][6C]  | 100.00% |                 |
-| 7    | [Reverse Integer][7]                                | Easy       | [C][7C]  | 98.34%  |                 |
-| 8    | [String to Integer (atoi)][8]                       | Medium     | [C][8C]  | 100.00% |                 |
+| #    | Title                                               | Difficulty | Languge  | Runtime | Time Complexity | Tag              |
+| ---: | :-------------------------------------------------- | :--------- | :------- | ------: | :-------------- | :--------------: |
+| 1    | [Two Sum][1]                                        | Easy       | [C][1C]  | 90.07%  |                 |                  |
+| 2    | [Add Two Numbers][2]                                | Medium     | [C][2C]  | 100.00% |                 |                  |
+| 3    | [Longest Substring Without Repeating Characters][3] | Medium     | [C][3C]  | 100.00% |                 |                  |
+| 4    | [Median of Two Sorted Arrays][4]                    | Hard       | [C][4C1] | 100.00% | ![][Ominmn]     |                  |
+|      |                                                     |            | [C][4C2] | 100.00% | ![][Ologmn]     |                  |
+| 5    | [Longest Palindromic Substring][5]                  | Medium     | [C][5C1] | 79.49%  | ![][On2]        |                  |
+|      |                                                     |            | [C][5C2] | 93.66%  | ![][On]         | [Manacher][Mnch] |
+| 6    | [ZigZag Conversion][6]                              | Medium     | [C][6C]  | 100.00% |                 |                  |
+| 7    | [Reverse Integer][7]                                | Easy       | [C][7C]  | 98.34%  |                 |                  |
+| 8    | [String to Integer (atoi)][8]                       | Medium     | [C][8C]  | 100.00% |                 |                  |
+| 9    | [Palindrome Number][9]                              | Easy       | [C][9C]  | 88.57%  |                 |                  |
 
 
 [1]:   ./doc/001.md
@@ -37,9 +38,13 @@
 [7C]:  ./src/prob/007.c
 [8]:   ./doc/008.md
 [8C]:  ./src/prob/008.c
+[9]:   ./doc/009.md
+[9C]:  ./src/prob/009.c
 
 
 [Ominmn]: http://latex.codecogs.com/gif.latex?O(\min\(m,n\)) 
 [Ologmn]: http://latex.codecogs.com/gif.latex?O(\log\(m,n\)) 
 [On2]: http://latex.codecogs.com/gif.latex?O(n^{2})  
 [On]: http://latex.codecogs.com/gif.latex?O(n) 
+
+[Mnch]: https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/  
