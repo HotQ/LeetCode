@@ -22,6 +22,7 @@
 | 11   | [Container With Most Water][11]                     | Medium     | [C][11C] | 100.00% |                 |                             |
 | 12   | [Integer to Roman][12]                              | Medium     | [C][12C] | 100.00% |                 |                             |
 | 13   | [Roman to Integer][13]                              | Easy       | [C][13C] | 100.00% |                 |                             |
+| 14   | [Longest Common Prefix][14]                         | Easy       | [C][14C] | 100.00% |                 |                             |
 
 
 [1]:    ./doc/001.md
@@ -52,6 +53,8 @@
 [12C]:  ./src/prob/012.c
 [13]:   ./doc/013.md
 [13C]:  ./src/prob/013.c
+[14]:   ./doc/014.md
+[14C]:  ./src/prob/014.c
 
 
 [Ominmn]: http://latex.codecogs.com/gif.latex?O(\min\(m,n\)) 
