@@ -7,16 +7,16 @@
 int partition(int A[], int S[], int lo, int hi);
 void quickSort(int A[], int S[], int lo, int hi);
 int *quickSortIndex(int A[], int lo, int hi);
-int binarySearch(int *nums, int lo, int hi, int target);
 
 int *twoSum(int *nums, int numsSize, int target)
 {
-    int *index = quickSortIndex(nums, 0, numsSize - 1);
-    for (int i = 0; i < numsSize - 1; ++i)
+    int *index = quickSortIndex(nums, 0, numsSize - 1),
+        i = 0,
+        j = numsSize - 1;
+    while (i < j)
     {
-        int subTarget = target - nums[i],
-            j = binarySearch(nums, i + 1, numsSize - 1, subTarget);
-        if (j != -1)
+        int sum = nums[i] + nums[j];
+        if (sum == target)
         {
             int *res = (int *)malloc(2 * sizeof(int));
             if (index[i] < index[j])
@@ -30,8 +30,12 @@ int *twoSum(int *nums, int numsSize, int target)
                 res[1] = index[i];
             }
             return res;
-        }
+        }else if(sum < target)
+            ++i;
+        else
+            --j; 
     }
+
     return NULL;
 }
 
@@ -73,19 +77,4 @@ int *quickSortIndex(int A[], int lo, int hi)
     }
     quickSort(A, index, lo, hi);
     return index;
-}
-int binarySearch(int *nums, int lo, int hi, int target)
-{
-    int m;
-    while (lo <= hi)
-    {
-        m = (lo + hi) / 2;
-        if (nums[m] == target)
-            return m;
-        else if (nums[m] > target)
-            hi = m - 1;
-        else if (nums[m] < target)
-            lo = m + 1;
-    }   
-    return -1;
 }
