@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int partition(int A[], int lo, int hi);
-void quickSort(int A[], int lo, int hi);
-int *quickSortIndex(int A[], int lo, int hi);
+int cmpfunc (const void * a, const void * b);
 
 /**
  * Return an array of arrays of size *returnSize.
@@ -11,8 +9,8 @@ int *quickSortIndex(int A[], int lo, int hi);
  */
 int **threeSum(int *nums, int numsSize, int *returnSize)
 {
-    quicksort(nums, 0, numsSize - 1);
-    
+    qsort(nums, numsSize, sizeof(int), cmpfunc);
+ 
     *returnSize = 0;
     int **res = (int **)malloc(sizeof(int *)),
         crtCapacity = 1;
@@ -57,35 +55,7 @@ int **threeSum(int *nums, int numsSize, int *returnSize)
     }
     return res;
 }
-
-#define swap(a, b)    \
-    {                 \
-        int temp = a; \
-        a = b;        \
-        b = temp;     \
-    }
-
-int partition(int A[], int lo, int hi)
+int cmpfunc (const void * a, const void * b)
 {
-    int pivot = A[hi],
-        i = lo - 1;
-    for (int j = lo; j <= hi - 1; ++j)
-        if (A[j] < pivot && i != j)
-        {
-            ++i;
-            swap(A[i], A[j]);
-        }
-    ++i;
-    swap(A[i], A[hi]);
-    return i;
-}
-
-void quicksort(int A[], int lo, int hi)
-{
-    if (lo < hi)
-    {
-        int p = partition(A, lo, hi);
-        quicksort(A, lo, p - 1);
-        quicksort(A, p + 1, hi);
-    }
+   return ( *(int*)a - *(int*)b );
 }

@@ -24,7 +24,7 @@
 | 12   | [Integer to Roman][12]                              | Medium     | [C][12C] | 100.00% |                 |                             |
 | 13   | [Roman to Integer][13]                              | Easy       | [C][13C] | 100.00% |                 |                             |
 | 14   | [Longest Common Prefix][14]                         | Easy       | [C][14C] | 100.00% |                 |                             |
-| 15   | [3Sum][15]                                          | Medium     | [C][15C] | 64.13%  |                 |                             |
+| 15   | [3Sum][15]                                          | Medium     | [C][15C] | 84.06%  |                 |                             |
 
 
 [1]:    ./doc/001.md
