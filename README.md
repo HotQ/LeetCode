@@ -25,6 +25,7 @@
 | 13   | [Roman to Integer][13]                              | Easy       | [C][13C] | 100.00% |                 |                             |
 | 14   | [Longest Common Prefix][14]                         | Easy       | [C][14C] | 100.00% |                 |                             |
 | 15   | [3Sum][15]                                          | Medium     | [C][15C] | 84.06%  |                 |                             |
+| 24   | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C] | 100.00% |                 |                             |
 | 94   | [Longest Common Prefix][94]                         | Medium     | [C][94C] | 100.00% |                 |                             |
 
 
@@ -61,6 +62,8 @@
 [14C]:  ./src/prob/014.c
 [15]:   ./doc/015.md
 [15C]:  ./src/prob/015.c
+[24]:   ./doc/024.md
+[24C]:  ./src/prob/024.c
 [94]:   ./doc/094.md
 [94C]:  ./src/prob/094.c
 
