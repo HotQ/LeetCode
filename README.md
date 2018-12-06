@@ -27,7 +27,8 @@
 | 15   | [3Sum][15]                                          | Medium     | [C][15C]  | 84.06%  |                 |                             |
 | 24   | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]  | 100.00% |                 |                             |
 | 94   | [Longest Common Prefix][94]                         | Medium     | [C][94C]  | 100.00% |                 |                             |
-| 902  | [Smallest Range I][902]                             | Medium     | [C][902C] | 100.00% |                 |                             |
+| 226  | [Invert Binary Tree][226]                           | Easy       | [C][226C] | 100.00% |                 |                             |
+| 902  | [Smallest Range I][902]                             | Easy       | [C][902C] | 100.00% |                 |                             |
 
 
 [1]:    ./doc/001.md
@@ -67,6 +68,8 @@
 [24C]:  ./src/prob/024.c
 [94]:   ./doc/094.md
 [94C]:  ./src/prob/094.c
+[226]:  ./doc/226.md
+[226C]: ./src/prob/226.c
 [902]:  ./doc/902.md
 [902C]: ./src/prob/902.c
 
