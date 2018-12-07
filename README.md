@@ -27,7 +27,8 @@
 | 15   | [3Sum][15]                                          | Medium     | [C][15C]  | 84.06%  |                 |                             |
 | 24   | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]  | 100.00% |                 |                             |
 | 94   | [Longest Common Prefix][94]                         | Medium     | [C][94C]  | 100.00% |                 |                             |
-| 148  | [Sort List][148]                           | Medium       | [C][148C] | 94.00% |                 |                             |
+| 148  | [Sort List][148]                                    | Medium     | [C][148C] | 94.00%  |                 |                             |
+| 172  | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C] | 100.00% |                 |                             |
 | 226  | [Invert Binary Tree][226]                           | Easy       | [C][226C] | 100.00% |                 |                             |
 | 902  | [Smallest Range I][902]                             | Easy       | [C][902C] | 100.00% |                 |                             |
 
@@ -71,6 +72,8 @@
 [94C]:  ./src/prob/094.c
 [148]:  ./doc/148.md
 [148C]: ./src/prob/148.c
+[172]:  ./doc/172.md
+[172C]: ./src/prob/172.c
 [226]:  ./doc/226.md
 [226C]: ./src/prob/226.c
 [902]:  ./doc/902.md
