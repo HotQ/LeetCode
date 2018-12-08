@@ -26,6 +26,7 @@
 | 14   | [Longest Common Prefix][14]                         | Easy       | [C][14C]  | 100.00% |                 |                             |
 | 15   | [3Sum][15]                                          | Medium     | [C][15C]  | 84.06%  |                 |                             |
 | 24   | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]  | 100.00% |                 |                             |
+| 55   | [Jump Game][55]                                     | Medium     | [C][55C]  | 100.00% |                 |                             |
 | 94   | [Longest Common Prefix][94]                         | Medium     | [C][94C]  | 100.00% |                 |                             |
 | 148  | [Sort List][148]                                    | Medium     | [C][148C] | 94.00%  |                 |                             |
 | 172  | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C] | 100.00% |                 |                             |
@@ -68,6 +69,8 @@
 [15C]:  ./src/prob/015.c
 [24]:   ./doc/024.md
 [24C]:  ./src/prob/024.c
+[55]:   ./doc/055.md
+[55C]:  ./src/prob/055.c
 [94]:   ./doc/094.md
 [94C]:  ./src/prob/094.c
 [148]:  ./doc/148.md
