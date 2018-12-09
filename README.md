@@ -31,6 +31,7 @@
 | 148  | [Sort List][148]                                    | Medium     | [C][148C] | 94.00%  |                 |                             |
 | 172  | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C] | 100.00% |                 |                             |
 | 226  | [Invert Binary Tree][226]                           | Easy       | [C][226C] | 100.00% |                 |                             |
+| 704  | [Binary Search][704]                                | Easy       | [C][704C] | 100.00% |                 |                             |
 | 902  | [Smallest Range I][902]                             | Easy       | [C][902C] | 100.00% |                 |                             |
 
 
@@ -79,6 +80,8 @@
 [172C]: ./src/prob/172.c
 [226]:  ./doc/226.md
 [226C]: ./src/prob/226.c
+[704]:  ./doc/704.md
+[704C]: ./src/prob/704.c
 [902]:  ./doc/902.md
 [902C]: ./src/prob/902.c
 
