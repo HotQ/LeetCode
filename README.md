@@ -5,34 +5,36 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-| #    | Title                                               | Difficulty | Languge   | Runtime | Time Complexity | Tag                         |
-| ---: | :-------------------------------------------------- | :--------- | :-------- | ------: | :-------------- | :-------------------------: |
-| 1    | [Two Sum][1]                                        | Easy       | [C][1C]   | 90.07%  | ![][On2]        |                             |
-|      |                                                     |            | [C][1C2]  | 6.45%   | ![][Ologn]      |                             |
-| 2    | [Add Two Numbers][2]                                | Medium     | [C][2C]   | 100.00% |                 |                             |
-| 3    | [Longest Substring Without Repeating Characters][3] | Medium     | [C][3C]   | 100.00% |                 |                             |
-| 4    | [Median of Two Sorted Arrays][4]                    | Hard       | [C][4C1]  | 100.00% | ![][Ominmn]     |                             |
-|      |                                                     |            | [C][4C2]  | 100.00% | ![][Ologmn]     |                             |
-| 5    | [Longest Palindromic Substring][5]                  | Medium     | [C][5C1]  | 79.49%  | ![][On2]        |                             |
-|      |                                                     |            | [C][5C2]  | 93.66%  | ![][On]         | [Manacher][Mnch]            |
-| 6    | [ZigZag Conversion][6]                              | Medium     | [C][6C]   | 100.00% |                 |                             |
-| 7    | [Reverse Integer][7]                                | Easy       | [C][7C]   | 98.34%  |                 |                             |
-| 8    | [String to Integer (atoi)][8]                       | Medium     | [C][8C]   | 100.00% |                 |                             |
-| 9    | [Palindrome Number][9]                              | Easy       | [C][9C]   | 88.57%  |                 |                             |
-| 10   | [Regular Expression Matching][10]                   | Hard       | [C][10C]  | 100.00% |                 | [Dynamic Programming][10dp] |
-| 11   | [Container With Most Water][11]                     | Medium     | [C][11C]  | 100.00% |                 |                             |
-| 12   | [Integer to Roman][12]                              | Medium     | [C][12C]  | 100.00% |                 |                             |
-| 13   | [Roman to Integer][13]                              | Easy       | [C][13C]  | 100.00% |                 |                             |
-| 14   | [Longest Common Prefix][14]                         | Easy       | [C][14C]  | 100.00% |                 |                             |
-| 15   | [3Sum][15]                                          | Medium     | [C][15C]  | 84.06%  |                 |                             |
-| 24   | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]  | 100.00% |                 |                             |
-| 55   | [Jump Game][55]                                     | Medium     | [C][55C]  | 100.00% |                 |                             |
-| 94   | [Longest Common Prefix][94]                         | Medium     | [C][94C]  | 100.00% |                 |                             |
-| 148  | [Sort List][148]                                    | Medium     | [C][148C] | 94.00%  |                 |                             |
-| 172  | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C] | 100.00% |                 |                             |
-| 226  | [Invert Binary Tree][226]                           | Easy       | [C][226C] | 100.00% |                 |                             |
-| 704  | [Binary Search][704]                                | Easy       | [C][704C] | 100.00% |                 |                             |
-| 902  | [Smallest Range I][902]                             | Easy       | [C][902C] | 100.00% |                 |                             |
+|   # | Title                                               | Difficulty | Languge    | Runtime | Time Complexity |             Tag             |
+| --: | :-------------------------------------------------- | :--------- | :--------- | ------: | :-------------- | :-------------------------: |
+|   1 | [Two Sum][1]                                        | Easy       | [C][1C]    |  90.07% | ![][On2]        |                             |
+|     |                                                     |            | [C][1C2]   |   6.45% | ![][Ologn]      |                             |
+|   2 | [Add Two Numbers][2]                                | Medium     | [C][2C]    | 100.00% |                 |                             |
+|   3 | [Longest Substring Without Repeating Characters][3] | Medium     | [C][3C]    | 100.00% |                 |                             |
+|   4 | [Median of Two Sorted Arrays][4]                    | Hard       | [C][4C1]   | 100.00% | ![][Ominmn]     |                             |
+|     |                                                     |            | [C][4C2]   | 100.00% | ![][Ologmn]     |                             |
+|   5 | [Longest Palindromic Substring][5]                  | Medium     | [C][5C1]   |  79.49% | ![][On2]        |                             |
+|     |                                                     |            | [C][5C2]   |  93.66% | ![][On]         |      [Manacher][Mnch]       |
+|   6 | [ZigZag Conversion][6]                              | Medium     | [C][6C]    | 100.00% |                 |                             |
+|   7 | [Reverse Integer][7]                                | Easy       | [C][7C]    |  98.34% |                 |                             |
+|   8 | [String to Integer (atoi)][8]                       | Medium     | [C][8C]    | 100.00% |                 |                             |
+|   9 | [Palindrome Number][9]                              | Easy       | [C][9C]    |  88.57% |                 |                             |
+|  10 | [Regular Expression Matching][10]                   | Hard       | [C][10C]   | 100.00% |                 | [Dynamic Programming][10dp] |
+|  11 | [Container With Most Water][11]                     | Medium     | [C][11C]   | 100.00% |                 |                             |
+|  12 | [Integer to Roman][12]                              | Medium     | [C][12C]   | 100.00% |                 |                             |
+|  13 | [Roman to Integer][13]                              | Easy       | [C][13C]   | 100.00% |                 |                             |
+|  14 | [Longest Common Prefix][14]                         | Easy       | [C][14C]   | 100.00% |                 |                             |
+|  15 | [3Sum][15]                                          | Medium     | [C][15C]   |  84.06% |                 |                             |
+|  24 | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]   | 100.00% |                 |                             |
+|  55 | [Jump Game][55]                                     | Medium     | [C][55C]   | 100.00% |                 |                             |
+|  94 | [Binary Tree Inorder Traversal][94]                 | Medium     | [C][94C]   | 100.00% |                 |                             |
+|     |                                                     |            | [Py][94P1] |  95.78% |                 |  Iteration                  |
+|     |                                                     |            | [Py][94P2] |  95.78% |                 |  Recursion                  |
+| 148 | [Sort List][148]                                    | Medium     | [C][148C]  |  94.00% |                 |                             |
+| 172 | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C]  | 100.00% |                 |                             |
+| 226 | [Invert Binary Tree][226]                           | Easy       | [C][226C]  | 100.00% |                 |                             |
+| 704 | [Binary Search][704]                                | Easy       | [C][704C]  | 100.00% |                 |                             |
+| 902 | [Smallest Range I][902]                             | Easy       | [C][902C]  | 100.00% |                 |                             |
 
 
 [1]:    ./doc/001.md
@@ -74,6 +76,8 @@
 [55C]:  ./src/prob/055.c
 [94]:   ./doc/094.md
 [94C]:  ./src/prob/094.c
+[94P1]:  ./src/prob/094_1.py
+[94P2]:  ./src/prob/094_2.py
 [148]:  ./doc/148.md
 [148C]: ./src/prob/148.c
 [172]:  ./doc/172.md
