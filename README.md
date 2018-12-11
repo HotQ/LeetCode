@@ -30,6 +30,7 @@
 |  94 | [Binary Tree Inorder Traversal][94]                 | Medium     | [C][94C]   | 100.00% |                 |                             |
 |     |                                                     |            | [Py][94P1] |  95.78% |                 |  Iteration                  |
 |     |                                                     |            | [Py][94P2] |  95.78% |                 |  Recursion                  |
+| 112 | [Path Sum][112]                                     | Easy       | [C][112C]  | 100.00% |                 |                             |
 | 148 | [Sort List][148]                                    | Medium     | [C][148C]  |  94.00% |                 |                             |
 | 172 | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C]  | 100.00% |                 |                             |
 | 226 | [Invert Binary Tree][226]                           | Easy       | [C][226C]  | 100.00% |                 |                             |
@@ -78,6 +79,8 @@
 [94C]:  ./src/prob/094.c
 [94P1]:  ./src/prob/094_1.py
 [94P2]:  ./src/prob/094_2.py
+[112]:  ./doc/112.md
+[112C]: ./src/prob/112.c
 [148]:  ./doc/148.md
 [148C]: ./src/prob/148.c
 [172]:  ./doc/172.md
