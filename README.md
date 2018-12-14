@@ -26,6 +26,7 @@
 |  14 | [Longest Common Prefix][14]                         | Easy       | [C][14C]   | 100.00% |                 |                             |
 |  15 | [3Sum][15]                                          | Medium     | [C][15C]   |  84.06% |                 |                             |
 |  24 | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]   | 100.00% |                 |                             |
+|  26 | [Remove Duplicates from Sorted Array][26]           | Medium     | [C][26C]   | 100.00% |                 |                             |
 |  55 | [Jump Game][55]                                     | Medium     | [C][55C]   | 100.00% |                 |                             |
 |  69 | [Sqrt(x)][69]                                       | Easy       | [C][69C]   |  99.72% |                 |  Binary Search              |
 |  74 | [Search a 2D Matrix][74]                            | Medium     | [C][74C]   | 100.00% |                 |  Binary Search              |
@@ -76,6 +77,8 @@
 [15C]:  ./src/prob/015.c
 [24]:   ./doc/024.md
 [24C]:  ./src/prob/024.c
+[26]:   ./doc/026.md
+[26C]:  ./src/prob/026.c
 [55]:   ./doc/055.md
 [55C]:  ./src/prob/055.c
 [69]:   ./doc/069.md
