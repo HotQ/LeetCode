@@ -10,7 +10,7 @@
  */
 #define NULL __null
 using namespace std;
-;
+
 class Solution
 {
   public:
