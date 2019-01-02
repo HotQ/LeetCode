@@ -38,6 +38,8 @@
 | 113 | [Path Sum II][113]                                  | Medium     | [C++][113Cp] | 100.00% |                 |                             |
 | 148 | [Sort List][148]                                    | Medium     | [C][148C]    |  94.00% |                 |                             |
 | 172 | [Factorial Trailing Zeroes][172]                    | Easy       | [C][172C]    | 100.00% |                 |                             |
+| 215 | [Kth Largest Element in an Array][215]              | Medium     | [C][215C1]   |  39.25% |                 |  QuickSelect                |
+|     |                                                     |            | [C][215C2]   |  95.33% |                 |  QuickSort                  |
 | 226 | [Invert Binary Tree][226]                           | Easy       | [C][226C]    | 100.00% |                 |                             |
 | 704 | [Binary Search][704]                                | Easy       | [C][704C]    | 100.00% |                 |                             |
 | 902 | [Smallest Range I][902]                             | Easy       | [C][902C]    | 100.00% |                 |                             |
@@ -100,6 +102,9 @@
 [148C]: ./src/prob/148.c
 [172]:  ./doc/172.md
 [172C]: ./src/prob/172.c
+[215]:  ./doc/215.md
+[215C1]:./src/prob/215_1.c
+[215C2]:./src/prob/215_2.c
 [226]:  ./doc/226.md
 [226C]: ./src/prob/226.c
 [704]:  ./doc/704.md
