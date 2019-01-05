@@ -34,6 +34,7 @@
 |     |                                                     |            | [Py][94P1]   |  95.78% |                 |  Iteration                  |
 |     |                                                     |            | [Py][94P2]   |  95.78% |                 |  Recursion                  |
 |  96 | [Unique Binary Search Trees][96]                    | Medium     | [C][96C]     | 100.00% |                 |                             |
+| 104 | [Maximum Depth of Binary Tree][104]                 | Easy       | [C][104C]    | 100.00% |                 |                             |
 | 112 | [Path Sum][112]                                     | Easy       | [C][112C]    | 100.00% |                 |                             |
 | 113 | [Path Sum II][113]                                  | Medium     | [C++][113Cp] | 100.00% |                 |                             |
 | 148 | [Sort List][148]                                    | Medium     | [C][148C]    |  94.00% |                 |                             |
@@ -92,8 +93,10 @@
 [94C]:  ./src/prob/094.c
 [96]:   ./doc/096.md
 [96C]:  ./src/prob/096.c
-[94P1]:  ./src/prob/094_1.py
-[94P2]:  ./src/prob/094_2.py
+[94P1]: ./src/prob/094_1.py
+[94P2]: ./src/prob/094_2.py
+[104]:  ./doc/104.md
+[104C]: ./src/prob/104.c
 [112]:  ./doc/112.md
 [112C]: ./src/prob/112.c
 [113]:  ./doc/113.md
