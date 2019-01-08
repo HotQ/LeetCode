@@ -28,6 +28,7 @@
 |  24 | [Swap Nodes in Pairs][24]                           | Medium     | [C][24C]     | 100.00% |                 |                             |
 |  26 | [Remove Duplicates from Sorted Array][26]           | Medium     | [C][26C]     | 100.00% |                 |                             |
 |  46 | [Permutations][46]                                  | Medium     | [C++][46Cp]  |  58.69% |                 |                             |
+|     |                                                     |            | [C][46C]     | 100.00% |                 |                             |
 |  55 | [Jump Game][55]                                     | Medium     | [C][55C]     | 100.00% |                 |                             |
 |  69 | [Sqrt(x)][69]                                       | Easy       | [C][69C]     |  99.72% |                 |  Binary Search              |
 |  74 | [Search a 2D Matrix][74]                            | Medium     | [C][74C]     | 100.00% |                 |  Binary Search              |
@@ -86,6 +87,7 @@
 [26]:   ./doc/026.md
 [26C]:  ./src/prob/026.c
 [46]:   ./doc/046.md
+[46C]:  ./src/prob/046.c
 [46Cp]: ./src/prob/046.cpp
 [55]:   ./doc/055.md
 [55C]:  ./src/prob/055.c
