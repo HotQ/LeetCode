@@ -6,24 +6,24 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
-        vector<int> base;
+        vector<int> base(nums);
         set<int> last;
         for(int n : nums)last.insert(n);
-        recu(res, base, last, nums.size());
+        recu(res, base, 0, last, nums.size());
         return res;
     }
-    void recu(vector<vector<int>> &res, vector<int> base, set<int> last, int len){
+    void recu(vector<vector<int>> &res, vector<int> &base, int len1, set<int> last, int len){
         if(len == 1){
-            base.push_back(*(last.begin()));
+            base[len1]=*(last.begin());
             res.push_back(base);
             return;
         }
+        
         for(int n : last){
-            vector<int> tmpvec = base;
-            set   <int> tmpset = last;
-            tmpvec.push_back(n);
+            set<int> tmpset = last;
+            base[len1]=n;
             tmpset.erase(n);
-            recu(res, tmpvec, tmpset, len -1);
+            recu(res, base, len1+1, tmpset, len -1);
         }
     }
 };
