@@ -33,6 +33,7 @@
 |  55 | [Jump Game][55]                                     | Medium     | [C][55C]     | 100.00% |                 |                             |
 |  69 | [Sqrt(x)][69]                                       | Easy       | [C][69C]     |  99.72% |                 |  Binary Search              |
 |  74 | [Search a 2D Matrix][74]                            | Medium     | [C][74C]     | 100.00% |                 |  Binary Search              |
+|  79 | [Word Search][79]                                   | Medium     | [C][79C]     | 100.00% |                 |  Binary Search              |
 |  94 | [Binary Tree Inorder Traversal][94]                 | Medium     | [C][94C]     | 100.00% |                 |                             |
 |     |                                                     |            | [Py][94P1]   |  95.78% |                 |  Iteration                  |
 |     |                                                     |            | [Py][94P2]   |  95.78% |                 |  Recursion                  |
@@ -98,6 +99,8 @@
 [69C]:  ./src/prob/069.c
 [74]:   ./doc/074.md
 [74C]:  ./src/prob/074.c
+[79]:   ./doc/079.md
+[79C]:  ./src/prob/079.c
 [94]:   ./doc/094.md
 [94C]:  ./src/prob/094.c
 [96]:   ./doc/096.md
