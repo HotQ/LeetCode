@@ -16,6 +16,8 @@ Parse
 
 
 count = 1
+total = 976
+solved = 0
 while 1:
     line = sour.readline()
     if line[0] == '|':
@@ -32,6 +34,8 @@ while True:
     line = map(lambda words: words.strip(),
                line.rstrip('\n').strip('|').split('|'))
     LOL.append(line)
+    if line[0] != '':
+        solved += 1
 
 for line in sour.readlines():
     if not line.startswith('['):
@@ -39,6 +43,7 @@ for line in sour.readlines():
     line = line.rstrip('\n').lstrip('[').replace(' ', '').split(']:')
     SOH[line[0]] = line[1]
 
+dest.write("<progress value=%d max=%d></progress> <strong>%d</strong> / %d " % (solved, total, solved, total))
 
 '''
 Generate
