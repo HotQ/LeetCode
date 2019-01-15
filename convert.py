@@ -43,7 +43,7 @@ for line in sour.readlines():
     line = line.rstrip('\n').lstrip('[').replace(' ', '').split(']:')
     SOH[line[0]] = line[1]
 
-dest.write("<progress value=%d max=%d></progress> <strong>%d</strong> / %d " % (solved, total, solved, total))
+dest.write("<progress value=%d max=%d></progress> <strong>%d</strong> / %d = %.2f %% " % (solved, total, solved, total, 100 * float(solved) / total))
 
 '''
 Generate
