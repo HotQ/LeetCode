@@ -54,13 +54,16 @@ def writetd(context, fp, attr=''):
     fp.write('\t\t<td%s>%s</td>\n' % (attr, context))
 
 
-def dealhref(context, tag='a href'):
+def dealhref(context):
+    if context.startswith('!'):
+        context, herf = context.split('][')
+        res = '<img src = "%s">%s</a>' % (SOH[herf.rstrip(']')], context.lstrip('!['))
+        return res
     if context.startswith('['):
         context, herf = context.split('][')
-        res = '<%s = "%s">%s</a>' % (tag, SOH[herf.rstrip(']')], context.lstrip('['))
+        res = '<a href = "%s">%s</a>' % (SOH[herf.rstrip(']')], context.lstrip('['))
         return res
-    else:
-        return context
+    return context
 
 
 def getrgb(r1, r2, r3, pos):
@@ -104,7 +107,7 @@ for line in LOL:
     writetd(dealhref(line[3]), dest)
     bgc = ' bgcolor="#%s"' % (getrgb('#ee332e', '#1bbc1b', '#33cc33', float(line[4].rstrip('%'))/100))
     writetd('<div align="right"><strong><font color=#ffffff>%s</strong></div>' % (line[4]), dest, bgc)
-    writetd(dealhref(line[5].lstrip('!'), 'img src'), dest)
+    writetd(dealhref(line[5]), dest)
     writetd(dealhref(line[6]), dest)
     dest.write('\t</tr>\n')
 

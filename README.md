@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=39 max=976></progress> <strong>39</strong> / 976 = 4.00 % 
+<progress value=40 max=976></progress> <strong>40</strong> / 976 = 4.10 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -382,6 +382,24 @@
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
 		<td><a href = "./src/prob/263.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">264</div></td>
+		<td><a href = "./doc/264.md">Ugly Number II</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/264_1.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td><img src = "./doc/img/FeelsBadMan.png"></a></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
+		<td><a href = "./src/prob/264_2.c">C</a></td>
+		<td bgcolor="#6f8522"><div align="right"><strong><font color=#ffffff>60.00%</strong></div></td>
 		<td></td>
 		<td></td>
 	</tr>
