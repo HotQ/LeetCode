@@ -206,6 +206,15 @@
 		<td></td>
 	</tr>
 	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
+		<td><a href = "./src/prob/036.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td><div align="right">46</div></td>
 		<td><a href = "./doc/046.md">Permutations</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
