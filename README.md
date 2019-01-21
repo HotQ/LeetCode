@@ -363,7 +363,7 @@
 		<td><a href = "./doc/121.md">Best Time to Buy and Sell Stock</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
 		<td><a href = "./src/prob/121.c">C</a></td>
-		<td bgcolor="#b35928"><div align="right"><strong><font color=#ffffff>27.81%</strong></div></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
 	</tr>
