@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=53 max=976></progress> <strong>53</strong> / 976 = 5.43 % 
+<progress value=54 max=976></progress> <strong>54</strong> / 976 = 5.53 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -246,6 +246,15 @@
 		<td><a href = "./doc/050.md">Pow(x, n)</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
 		<td><a href = "./src/prob/050.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">53</div></td>
+		<td><a href = "./doc/053.md">Maximum Subarray</a></td>
+		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
+		<td><a href = "./src/prob/053.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
