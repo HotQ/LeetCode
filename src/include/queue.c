@@ -38,6 +38,11 @@ void push(Heap *heap, value_type item){
     }
 
     int pos = heap->size;
+    if (pos == 0) {
+		(heap->arr)[0] = item;
+		++(heap->size);
+		return;
+	}
     for (; heap->compare(heap->arr + (pos - 1) / 2, &item) && pos != 0; pos = (pos - 1) / 2){
         (heap->arr)[pos] = (heap->arr)[(pos - 1) / 2];
     }
