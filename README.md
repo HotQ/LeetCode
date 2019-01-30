@@ -20,7 +20,7 @@
 		<td><div align="right">1</div></td>
 		<td><a href = "./doc/001.md">Two Sum</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
-		<td><a href = "./src/prob/001.c">C</a></td>
+		<td><a href = "./src/prob/001_1.c">C</a></td>
 		<td bgcolor="#2fae1c"><div align="right"><strong><font color=#ffffff>90.07%</strong></div></td>
 		<td><img src = "http://latex.codecogs.com/gif.latex?O(n^{2})"></a></td>
 		<td></td>
@@ -191,10 +191,19 @@
 		<td><div align="right">23</div></td>
 		<td><a href = "./doc/023.md">Merge k Sorted Lists</a></td>
 		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
-		<td><a href = "./src/prob/023.c">C</a></td>
+		<td><a href = "./src/prob/023_1.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td>Divide-and-conquer</td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#d9534f"><font color=#ffffff></td>
+		<td><a href = "./src/prob/023_2.c">C</a></td>
+		<td bgcolor="#489e1f"><div align="right"><strong><font color=#ffffff>78.57%</strong></div></td>
+		<td></td>
+		<td>Min-heap</td>
 	</tr>
 	<tr>
 		<td><div align="right"></div></td>
