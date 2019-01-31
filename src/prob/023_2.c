@@ -21,30 +21,6 @@ typedef struct Heap
 #define swap(a, b)  {  value_type _tmp = a;  a = b, b = _tmp; }
 
 
-
-
-/*
-class Solution{
-  public:
-    ListNode *mergeKLists(vector<ListNode *> &lists){
-        priority_queue<ListNode *, vector<ListNode *>, cmp> queue;
-        for (auto head : lists)
-            if (head) queue.push(head);
-
-        ListNode *tmp = new ListNode(0), *tail = tmp;
-        while (queue.size()){
-            tail->next = queue.top();
-            tail = tail->next;
-            queue.pop();
-            if (tail->next)
-                queue.push(tail->next);
-        }
-        tail = tmp->next;
-        delete tmp;
-        return tail;
-    }
-};
-*/
 #define GROWTHRATE 1.6
 
 Heap *init(bool (*compare)(value_type *, value_type *)){
@@ -96,29 +72,6 @@ void pop(Heap *heap){
     }
 }
 
-
-/*
-class Solution{
-  public:
-    ListNode *mergeKLists(vector<ListNode *> &lists){
-        priority_queue<ListNode *, vector<ListNode *>, cmp> queue;
-        for (auto head : lists)
-            if (head) queue.push(head);
-
-        ListNode *tmp = new ListNode(0), *tail = tmp;
-        while (queue.size()){
-            tail->next = queue.top();
-            tail = tail->next;
-            queue.pop();
-            if (tail->next)
-                queue.push(tail->next);
-        }
-        tail = tmp->next;
-        delete tmp;
-        return tail;
-    }
-};
-*/
 bool cmp(ListNode ** a, ListNode ** b){
         return (*a)->val > (*b)->val;
 }
