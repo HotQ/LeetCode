@@ -587,9 +587,18 @@
 		<td><div align="right">509</div></td>
 		<td><a href = "./doc/509.md">Fibonacci Number</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
-		<td><a href = "./src/prob/509.c">C</a></td>
+		<td><a href = "./src/prob/509_1.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(n)"></a></td>
 		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/509_2.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(\log\(n\))"></a></td>
 		<td></td>
 	</tr>
 	<tr>
