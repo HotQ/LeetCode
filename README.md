@@ -599,7 +599,7 @@
 		<td><a href = "./src/prob/509_2.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td><img src = "http://latex.codecogs.com/gif.latex?O(\log\(n\))"></a></td>
-		<td></td>
+		<td><a href = "./doc/Fibonacci.md">Square-and-Multiply</a></td>
 	</tr>
 	<tr>
 		<td><div align="right">557</div></td>
