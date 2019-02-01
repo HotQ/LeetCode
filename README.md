@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=60 max=976></progress> <strong>60</strong> / 976 = 6.15 % 
+<progress value=61 max=976></progress> <strong>61</strong> / 976 = 6.25 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -339,6 +339,33 @@
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td>Binary Search</td>
+	</tr>
+	<tr>
+		<td><div align="right">78</div></td>
+		<td><a href = "./doc/078.md">Subsets</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/078_1.cpp">C++</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td>Iterative</td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
+		<td><a href = "./src/prob/078_2.cpp">C++</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td>Backtracking</td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
+		<td><a href = "./src/prob/078_3.cpp">C++</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td>Bit-Manipulation</td>
 	</tr>
 	<tr>
 		<td><div align="right">79</div></td>
