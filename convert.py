@@ -111,7 +111,7 @@ for line in LOL:
     writetd(dealhref(line[6]), dest)
     dest.write('\t</tr>\n')
 
-dest.write('</table>\n')
+dest.write('</table>\n## License\nThis project is licensed under <a href = "./LICENSE">GLWTPL<a>\n')
 
 sour.close()
 dest.close()

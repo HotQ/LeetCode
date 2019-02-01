@@ -692,3 +692,5 @@
 		<td></td>
 	</tr>
 </table>
+## License
+This project is licensed under <a href = "./LICENSE">GLWTPL<a>
