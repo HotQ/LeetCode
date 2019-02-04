@@ -236,7 +236,16 @@
 		<td><div align="right">28</div></td>
 		<td><a href = "./doc/028.md">Implement strStr()</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
-		<td><a href = "./src/prob/028.c">C</a></td>
+		<td><a href = "./src/prob/028_1.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/028_2.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
