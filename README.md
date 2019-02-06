@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=64 max=976></progress> <strong>64</strong> / 976 = 6.56 % 
+<progress value=65 max=976></progress> <strong>65</strong> / 976 = 6.66 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -416,7 +416,7 @@
 		<td><div align="right"></div></td>
 		<td></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
-		<td><a href = "./src/prob/094_1.py">Py</a></td>
+		<td><a href = "./src/prob/094_1.py">Python</a></td>
 		<td bgcolor="#23b61b"><div align="right"><strong><font color=#ffffff>95.78%</strong></div></td>
 		<td></td>
 		<td>Iteration</td>
@@ -425,7 +425,7 @@
 		<td><div align="right"></div></td>
 		<td></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff></td>
-		<td><a href = "./src/prob/094_2.py">Py</a></td>
+		<td><a href = "./src/prob/094_2.py">Python</a></td>
 		<td bgcolor="#23b61b"><div align="right"><strong><font color=#ffffff>95.78%</strong></div></td>
 		<td></td>
 		<td>Recursion</td>
@@ -656,6 +656,15 @@
 		<td><a href = "./doc/Fibonacci.md">Square-and-Multiply</a></td>
 	</tr>
 	<tr>
+		<td><div align="right">535</div></td>
+		<td><a href = "./doc/535.md">Encode and Decode TinyURL</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/535.py">Python</a></td>
+		<td bgcolor="#1bbb1b"><div align="right"><strong><font color=#ffffff>99.94%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td><div align="right">557</div></td>
 		<td><a href = "./doc/557.md">Reverse Words in a String III</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
@@ -704,7 +713,7 @@
 		<td><div align="right">890</div></td>
 		<td><a href = "./doc/890.md">Find and Replace Pattern</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
-		<td><a href = "./src/prob/890.py">Py</a></td>
+		<td><a href = "./src/prob/890.py">Python</a></td>
 		<td bgcolor="#37a91d"><div align="right"><strong><font color=#ffffff>86.54%</strong></div></td>
 		<td></td>
 		<td></td>
