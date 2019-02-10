@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=69 max=976></progress> <strong>69</strong> / 976 = 7.07 % 
+<progress value=70 max=976></progress> <strong>70</strong> / 976 = 7.17 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -265,6 +265,24 @@
 		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
 		<td><a href = "./src/prob/032cpp">C++</a></td>
 		<td bgcolor="#ea352d"><div align="right"><strong><font color=#ffffff>1.48%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">35</div></td>
+		<td><a href = "./doc/035.md">Search Insert Position</a></td>
+		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
+		<td><a href = "./src/prob/035.cpp">C++</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/035.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
 	</tr>
