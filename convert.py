@@ -102,7 +102,7 @@ for line in LOL:
 
     dest.write('\t<tr>\n')
     writetd('<div align="right">%s</div>' % line[0], dest)
-    writetd(dealhref(line[1]), dest)
+    writetd('<a href = "./doc/%03d.md">%s</a>' % (int(line[0],10), line[1])  if(line[1] != '') else '' , dest)
     writetd('<font color=#ffffff>%s' % (line[2]), dest, bg1[_diff])
     writetd(dealhref(line[3]), dest)
     bgc = ' bgcolor="#%s"' % (getrgb('#ee332e', '#1bbc1b', '#33cc33', float(line[4].rstrip('%'))/100))
