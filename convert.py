@@ -1,4 +1,5 @@
 # coding=utf-8
+import re
 
 SOT = 3
 sour = open("SOURCE.md", 'r')
@@ -8,6 +9,9 @@ bg1 = {'Easy':   ' bgcolor="#33cc33"',
        'Hard':   ' bgcolor="#d9534f"'}
 LOL = list()
 SOH = dict()
+LAN = {'C' : ['C',      'c'],
+       'Cp': ['C++',    'cpp'],
+       'Py': ['Python', 'py'],}
 
 
 '''
@@ -104,7 +108,10 @@ for line in LOL:
     writetd('<div align="right">%s</div>' % line[0], dest)
     writetd('<a href = "./doc/%03d.md">%s</a>' % (int(line[0],10), line[1])  if(line[1] != '') else '' , dest)
     writetd('<font color=#ffffff>%s' % (line[2]), dest, bg1[_diff])
-    writetd(dealhref(line[3]), dest)
+        
+    g = re.match(r'(\d+)([A-Z|a-z]+)(\d*)', line[3].split('][')[1].rstrip(']'))
+    writetd('<a href = "./src/prob/%03d%s.%s">%s</a>' % (int(g.group(1)), '' if g.group(3) == '' else '_' + g.group(3), LAN[g.group(2)][1]   , LAN[g.group(2)][0]), dest)
+
     bgc = ' bgcolor="#%s"' % (getrgb('#ee332e', '#1bbc1b', '#33cc33', float(line[4].rstrip('%'))/100))
     writetd('<div align="right"><strong><font color=#ffffff>%s</strong></div>' % (line[4]), dest, bgc)
     writetd(dealhref(line[5]), dest)

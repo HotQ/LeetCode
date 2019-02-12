@@ -263,7 +263,7 @@
 		<td><div align="right">32</div></td>
 		<td><a href = "./doc/032.md">Longest Valid Parentheses</a></td>
 		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
-		<td><a href = "./src/prob/032cpp">C++</a></td>
+		<td><a href = "./src/prob/032.cpp">C++</a></td>
 		<td bgcolor="#ea352d"><div align="right"><strong><font color=#ffffff>1.48%</strong></div></td>
 		<td></td>
 		<td></td>
@@ -677,7 +677,7 @@
 		<td><div align="right">329</div></td>
 		<td><a href = "./doc/329.md">Longest Increasing Path in a Matrix</a></td>
 		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
-		<td><a href = "./src/prob/329.cpp">C</a></td>
+		<td><a href = "./src/prob/329.cpp">C++</a></td>
 		<td bgcolor="#b25928"><div align="right"><strong><font color=#ffffff>28.02%</strong></div></td>
 		<td></td>
 		<td></td>
