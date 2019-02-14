@@ -35,6 +35,24 @@
 		<td></td>
 	</tr>
 	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/001_2.cpp">C++</a></td>
+		<td bgcolor="#8f7025"><div align="right"><strong><font color=#ffffff>44.69%</strong></div></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(\log\(n\))"></a></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/001_3.cpp">C++</a></td>
+		<td bgcolor="#1fb91b"><div align="right"><strong><font color=#ffffff>98.04%</strong></div></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(n)"></a></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td><div align="right">2</div></td>
 		<td><a href = "./doc/002.md">Add Two Numbers</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
