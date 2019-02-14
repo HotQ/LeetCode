@@ -795,7 +795,7 @@
 		<td><a href = "./doc/763.md">Partition Labels</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
 		<td><a href = "./src/prob/763.cpp">C++</a></td>
-		<td bgcolor="#9c6726"><div align="right"><strong><font color=#ffffff>38.45%</strong></div></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
 	</tr>

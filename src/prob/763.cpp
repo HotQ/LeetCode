@@ -13,7 +13,7 @@ public:
 		for (int i = 0; i < 26; ++i) {
 			if (chrstat[i][0] != -1)stat[chrstat[i][0]] = chrstat[i][1];
 		}
-		for (auto i : stat)
+		for (auto &i : stat)
 			if (i.first > hi) {
 				ans.push_back(hi - lo + 1);
 				total += hi - lo + 1;
