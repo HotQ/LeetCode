@@ -31,7 +31,7 @@
 		<td bgcolor="#33cc33"><font color=#ffffff></td>
 		<td><a href = "./src/prob/001_2.c">C</a></td>
 		<td bgcolor="#e03b2c"><div align="right"><strong><font color=#ffffff>6.45%</strong></div></td>
-		<td><img src = "http://latex.codecogs.com/gif.latex?O(\log\(n\))"></a></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(n\log\(n\))"></a></td>
 		<td></td>
 	</tr>
 	<tr>
@@ -40,7 +40,7 @@
 		<td bgcolor="#33cc33"><font color=#ffffff></td>
 		<td><a href = "./src/prob/001_2.cpp">C++</a></td>
 		<td bgcolor="#8f7025"><div align="right"><strong><font color=#ffffff>44.69%</strong></div></td>
-		<td><img src = "http://latex.codecogs.com/gif.latex?O(\log\(n\))"></a></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(n\log\(n\))"></a></td>
 		<td></td>
 	</tr>
 	<tr>
@@ -50,6 +50,15 @@
 		<td><a href = "./src/prob/001_3.cpp">C++</a></td>
 		<td bgcolor="#1fb91b"><div align="right"><strong><font color=#ffffff>98.04%</strong></div></td>
 		<td><img src = "http://latex.codecogs.com/gif.latex?O(n)"></a></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right"></div></td>
+		<td></td>
+		<td bgcolor="#33cc33"><font color=#ffffff></td>
+		<td><a href = "./src/prob/001.js">JavaScript</a></td>
+		<td bgcolor="#7c7c23"><div align="right"><strong><font color=#ffffff>53.96%</strong></div></td>
+		<td><img src = "http://latex.codecogs.com/gif.latex?O(n^{2})"></a></td>
 		<td></td>
 	</tr>
 	<tr>

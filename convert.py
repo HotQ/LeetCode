@@ -9,9 +9,10 @@ bg1 = {'Easy':   ' bgcolor="#33cc33"',
        'Hard':   ' bgcolor="#d9534f"'}
 LOL = list()
 SOH = dict()
-LAN = {'C' : ['C',      'c'],
-       'Cp': ['C++',    'cpp'],
-       'Py': ['Python', 'py'],}
+LAN = {'C' : ['C',          'c'],
+       'Cp': ['C++',        'cpp'],
+       'Py': ['Python',     'py'],
+       'JS': ['JavaScript', 'js'],}
 
 
 '''
