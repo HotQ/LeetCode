@@ -61,6 +61,7 @@
 |  64 | Minimum Path Sum                                         | Medium     | JS      | 100.00% |                 |                             |
 |  69 | Sqrt(x)                                                  | Easy       | C       |  99.72% |                 |  Binary Search              |
 |  70 | Climbing Stairs                                          | Easy       | C       | 100.00% |                 |                             |
+|  71 | Simplify Path                                            | Medium     | Cp      |  96.88% |                 |                             |
 |  74 | Search a 2D Matrix                                       | Medium     | C       | 100.00% |                 |  Binary Search              |
 |  78 | Subsets                                                  | Medium     | Cp1     | 100.00% |                 |  Iterative                  |
 |     |                                                          |            | Cp2     | 100.00% |                 |  Backtracking               |
