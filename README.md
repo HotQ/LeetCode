@@ -389,7 +389,7 @@
 		<td><div align="right">41</div></td>
 		<td><a href = "./doc/041.md">First Missing Positive</a></td>
 		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
-		<td><a href = "./src/prob/040.js">JavaScript</a></td>
+		<td><a href = "./src/prob/041.js">JavaScript</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>

@@ -100,8 +100,11 @@ dest.write('''
 \t</tr>
 ''')
 
+_shar = LOL[0][0]
 _diff = LOL[0][2]
 for line in LOL:
+    if line[0] != '':
+        _shar = line[0]
     if line[2] != '':
         _diff = line[2]
 
@@ -110,8 +113,8 @@ for line in LOL:
     writetd('<a href = "./doc/%03d.md">%s</a>' % (int(line[0],10), line[1])  if(line[1] != '') else '' , dest)
     writetd('<font color=#ffffff>%s' % (line[2]), dest, bg1[_diff])
         
-    g = re.match(r'(\d+)([A-Z|a-z]+)(\d*)', line[3].split('][')[1].rstrip(']'))
-    writetd('<a href = "./src/prob/%03d%s.%s">%s</a>' % (int(g.group(1)), '' if g.group(3) == '' else '_' + g.group(3), LAN[g.group(2)][1]   , LAN[g.group(2)][0]), dest)
+    g = re.match(r'([A-Z|a-z]+)(\d*)', line[3])
+    writetd('<a href = "./src/prob/%03d%s.%s">%s</a>' % (int(_shar), '' if g.group(2) == '' else '_' + g.group(2), LAN[g.group(1)][1]   , LAN[g.group(1)][0]), dest)
 
     bgc = ' bgcolor="#%s"' % (getrgb('#ee332e', '#1bbc1b', '#33cc33', float(line[4].rstrip('%'))/100))
     writetd('<div align="right"><strong><font color=#ffffff>%s</strong></div>' % (line[4]), dest, bgc)
