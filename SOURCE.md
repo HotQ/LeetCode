@@ -70,6 +70,7 @@
 |     |                                                          |            | Py1     |  95.78% |                 |  Iteration                  |
 |     |                                                          |            | Py2     |  95.78% |                 |  Recursion                  |
 |  96 | Unique Binary Search Trees                               | Medium     | C       | 100.00% |                 |                             |
+|  98 | Validate Binary Search Tree                              | Medium     | C       |  99.31% |                 |                             |
 | 100 | Same Tree                                                | Easy       | C       | 100.00% |                 |                             |
 | 104 | Maximum Depth of Binary Tree                             | Easy       | C       | 100.00% |                 |                             |
 | 112 | Path Sum                                                 | Easy       | C       | 100.00% |                 |                             |
