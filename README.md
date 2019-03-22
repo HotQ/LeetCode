@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=78 max=976></progress> <strong>78</strong> / 976 = 7.99 % 
+<progress value=80 max=976></progress> <strong>80</strong> / 976 = 8.20 % 
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
@@ -314,6 +314,15 @@
 		<td></td>
 	</tr>
 	<tr>
+		<td><div align="right">34</div></td>
+		<td><a href = "./doc/034.md">Find First and Last Position of Element in Sorted Array</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/034.cpp">C++</a></td>
+		<td bgcolor="#1fb91b"><div align="right"><strong><font color=#ffffff>98.05%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td><div align="right">35</div></td>
 		<td><a href = "./doc/035.md">Search Insert Position</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
@@ -373,6 +382,15 @@
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
 		<td><a href = "./src/prob/040.cpp">C++</a></td>
 		<td bgcolor="#728322"><div align="right"><strong><font color=#ffffff>58.62%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">41</div></td>
+		<td><a href = "./doc/041.md">First Missing Positive</a></td>
+		<td bgcolor="#d9534f"><font color=#ffffff>Hard</td>
+		<td><a href = "./src/prob/040.js">JavaScript</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
 	</tr>
