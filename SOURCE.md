@@ -58,6 +58,7 @@
 |  53 | Maximum Subarray                                         | Easy       | C       | 100.00% |                 |                             |
 |  55 | Jump Game                                                | Medium     | C       | 100.00% |                 |                             |
 |  61 | Rotate List                                              | Medium     | C       | 100.00% |                 |                             |
+|  64 | Minimum Path Sum                                         | Medium     | JS      | 100.00% |                 |                             |
 |  69 | Sqrt(x)                                                  | Easy       | C       |  99.72% |                 |  Binary Search              |
 |  70 | Climbing Stairs                                          | Easy       | C       | 100.00% |                 |                             |
 |  74 | Search a 2D Matrix                                       | Medium     | C       | 100.00% |                 |  Binary Search              |
