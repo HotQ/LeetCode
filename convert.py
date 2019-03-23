@@ -23,6 +23,10 @@ Parse
 count = 1
 total = 976
 solved = 0
+easy = 0
+medium = 0
+hard = 0
+
 while 1:
     line = sour.readline()
     if line[0] == '|':
@@ -41,6 +45,9 @@ while True:
     LOL.append(line)
     if line[0] != '':
         solved += 1
+    if line[2] == 'Easy': easy+=1
+    if line[2] == 'Medium': medium +=1
+    if line[2] == 'Hard': hard+=1
 
 for line in sour.readlines():
     if not line.startswith('['):
@@ -49,6 +56,22 @@ for line in sour.readlines():
     SOH[line[0]] = line[1]
 
 dest.write("<progress value=%d max=%d></progress> <strong>%d</strong> / %d = %.2f %% " % (solved, total, solved, total, 100 * float(solved) / total))
+
+space = 38
+dest.write(
+'''
+<span style="background:#33cc33;">%s</span>\
+<span style="background:#f0ad4e;">%s</span>\
+<span style="background:#d9534f;">%s</span>\
+<span> %.f%% | %.f%% | %.f%% </span>
+''' 
+%('&nbsp;' * (space * easy / solved),
+  '&nbsp;' * (space * medium / solved),
+  '&nbsp;' * (space * hard / solved),
+  100 * float(easy) / solved,
+  100 * float(medium) / solved, 
+  100 * float(hard) / solved)
+)
 
 '''
 Generate

@@ -6,6 +6,8 @@
 
 ## Algorithms
 <progress value=88 max=976></progress> <strong>88</strong> / 976 = 9.02 % 
+<span style="background:#33cc33;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#f0ad4e;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#d9534f;">&nbsp;&nbsp;&nbsp;</span><span> 35% | 55% | 10% </span>
+
 <table>
 	<tr>
 		<th><div align="right">#</div></th>
