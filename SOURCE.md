@@ -80,6 +80,7 @@
 | 125 | Valid Palindrome                                         | Easy       | C       | 100.00% |                 |                             |
 | 135 | Candy                                                    | Hard       | Cp      |  33.61% |                 |                             |
 | 136 | Single Number                                            | Easy       | C       | 100.00% |                 |                             |
+| 137 | Single Number II                                         | Medium     | Cp      |  40.73% |                 |                             |
 | 145 | Binary Tree Postorder Traversal                          | Hard       | Cp      | 100.00% |                 |                             |
 | 146 | LRU Cache                                                | Hard       | Cp      |  65.84% |                 |                             |
 | 148 | Sort List                                                | Medium     | C       |  94.00% |                 |                             |
