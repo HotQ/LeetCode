@@ -73,6 +73,7 @@
 |  96 | Unique Binary Search Trees                                 | Medium     | C       | 100.00% |                 |                             |
 |  98 | Validate Binary Search Tree                                | Medium     | C       |  99.31% |                 |                             |
 | 100 | Same Tree                                                  | Easy       | C       | 100.00% |                 |                             |
+| 102 | Binary Tree Level Order Traversal                          | Medium     | Cp      | 100.00% |                 |                             |
 | 104 | Maximum Depth of Binary Tree                               | Easy       | C       | 100.00% |                 |                             |
 | 105 | Construct Binary Tree from Preorder and Inorder Traversal  | Medium     | Cp      |  97.68% |                 |                             |
 | 106 | Construct Binary Tree from Inorder and Postorder Traversal | Medium     | Cp      |  99.34% |                 |                             |
