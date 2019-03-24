@@ -5,7 +5,7 @@
 1. **DON'T** use global variable in LeetCode **!**
 
 ## Algorithms
-<progress value=88 max=976></progress> <strong>88</strong> / 976 = 9.02 % 
+<progress value=89 max=976></progress> <strong>89</strong> / 976 = 9.12 % 
 <span style="background:#33cc33;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#f0ad4e;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#d9534f;">&nbsp;&nbsp;&nbsp;</span><span> 35% | 55% | 10% </span>
 
 <table>
@@ -815,6 +815,15 @@
 		<td><a href = "./doc/238.md">Product of Array Except Self</a></td>
 		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
 		<td><a href = "./src/prob/238.cpp">C++</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">260</div></td>
+		<td><a href = "./doc/260.md">Single Number III</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/260.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
