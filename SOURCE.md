@@ -3,6 +3,17 @@
 ## Tips
 
 1. **DON'T** use global variable in LeetCode **!**
+- C
+  1. ```c
+     int a = c; // a >> b
+     while(a > b) a = sth();
+     ```
+     is faster than 
+     ```c
+     int a;
+     while((a = sth()) > b);
+     ```
+     but **DON'T** know why :(
 
 ## Algorithms
 |   # | Title                                                    | Difficulty | Languge | Runtime | Time Complexity |             Tag             |
@@ -103,6 +114,7 @@
 | 329 | Longest Increasing Path in a Matrix                        | Hard       | Cp      |  28.02% |                 |                             |
 | 367 | Valid Perfect Square                                       | Easy       | C       | 100.00% |                 |                             |
 | 400 | Nth Digit                                                  | Easy       | C       | 100.00% |                 |                             |
+| 470 | Implement Rand10() Using Rand7()                           | Medium     | C       | 100.00% |                 |                             |
 | 509 | Fibonacci Number                                           | Easy       | C1      | 100.00% | ![][On]         |                             |
 |     |                                                            |            | C2      | 100.00% | ![][Ologn]      | [Square-and-Multiply][fib]  |
 | 535 | Encode and Decode TinyURL                                  | Medium     | Py      |  99.94% |                 |                             |

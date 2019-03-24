@@ -3,10 +3,21 @@
 ## Tips
 
 1. **DON'T** use global variable in LeetCode **!**
+- C
+  1. ```c
+     int a = c; // a >> b
+     while(a > b) a = sth();
+     ```
+     is faster than 
+     ```c
+     int a;
+     while((a = sth()) > b);
+     ```
+     but **DON'T** know why :(
 
 ## Algorithms
-<progress value=89 max=976></progress> <strong>89</strong> / 976 = 9.12 % 
-<span style="background:#33cc33;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#f0ad4e;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#d9534f;">&nbsp;&nbsp;&nbsp;</span><span> 35% | 55% | 10% </span>
+<progress value=90 max=976></progress> <strong>90</strong> / 976 = 9.22 % 
+<span style="background:#33cc33;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#f0ad4e;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="background:#d9534f;">&nbsp;&nbsp;&nbsp;</span><span> 34% | 56% | 10% </span>
 
 <table>
 	<tr>
@@ -878,6 +889,15 @@
 		<td><a href = "./doc/400.md">Nth Digit</a></td>
 		<td bgcolor="#33cc33"><font color=#ffffff>Easy</td>
 		<td><a href = "./src/prob/400.c">C</a></td>
+		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><div align="right">470</div></td>
+		<td><a href = "./doc/470.md">Implement Rand10() Using Rand7()</a></td>
+		<td bgcolor="#f0ad4e"><font color=#ffffff>Medium</td>
+		<td><a href = "./src/prob/470.c">C</a></td>
 		<td bgcolor="##33cc33"><div align="right"><strong><font color=#ffffff>100.00%</strong></div></td>
 		<td></td>
 		<td></td>
