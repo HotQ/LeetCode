@@ -9,14 +9,9 @@ public:
 					if (tmp[i] == 2) tmp[i] = 0;
 					else tmp[i] += 1;
 		}
-
-		if (tmp[31])
-			for (int i = 0; i < 31; ++i)
-				tmp[i] = 1 - tmp[i];
-		int ans = 0;
+		int ans = tmp[31];
 		for (int i = 30; i >= 0; --i)
-			ans = (ans << 1) + tmp[i];
-
-		return tmp[31] == 0 ? ans : -ans - 1;
+			ans = (ans << 1) | tmp[i];
+		return ans;
 	}
 };
