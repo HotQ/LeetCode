@@ -1,7 +1,10 @@
-# LeetCode
-
-
-![](https://img.shields.io/badge/license-GLWT-brightgreen.svg) [![996.ICU](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+<div   align="center">
+<img src="./doc/img/logo.png" />
+<hr>
+<img src="https://img.shields.io/badge/license-GLWT-brightgreen.svg" />
+<img src="https://img.shields.io/badge/link-996.icu-red.svg" />
+<img src="https://img.shields.io/badge/PRs-NOT%20WELCOME-important.svg" />
+</div  >
 
 ## Tips
 
