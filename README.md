@@ -9,17 +9,7 @@
 ## Tips
 
 1. **DON'T** use global variable in LeetCode **!**
-- C
-  1. ```c
-     int a = c; // a >> b
-     while(a > b) a = sth();
-     ```
-     is faster than 
-     ```c
-     int a;
-     while((a = sth()) > b);
-     ```
-     but **DON'T** know why :(
+
 
 ## Algorithms
 <progress value=90 max=976></progress> <strong>90</strong> / 976 = 9.22 % 
